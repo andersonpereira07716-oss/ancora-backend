@@ -1,0 +1,37 @@
+# =====================================================
+# 🚀 COMANDOS PRONTOS PARA COPIAR/COLAR
+# =====================================================
+
+# Abra PowerShell, navegue até a pasta do projeto, e execute cada comando abaixo
+
+# PASSO 1: Adicione Git ao PATH
+$env:PATH += ";C:\Program Files\Git\bin"
+
+# PASSO 2: Crie o repositório em GitHub (abra no navegador):
+# https://github.com/new
+# Nome: "ancora-backend"
+# Deixe como Public
+# Clique: Create repository
+
+# PASSO 3: Substitua "SEU_USUARIO" pelo seu usuário GitHub real!
+# Depois copie e execute este bloco:
+
+git branch -M main
+git remote add origin https://github.com/SEU_USUARIO/ancora-backend.git
+git push -u origin main
+
+# Quando pedir senha, digite sua senha GitHub (pode parecer que não está digitando, mas está)
+
+# PASSO 4: Quando terminar, acesse: https://vercel.com
+# Clique: Sign Up → Continue with GitHub
+# Clique: New Project
+# Selecione: ancora-backend
+# Em Environment Variables, adicione: CLAUDE_API_KEY (deixe em branco)
+# Clique: Deploy
+
+# PRONTO! Seu app está online em ~2 minutos! 🎉
+
+# =====================================================
+# Se preferir um script interativo, execute:
+# powershell -ExecutionPolicy Bypass -File "FAZER_PUSH.ps1"
+# =====================================================

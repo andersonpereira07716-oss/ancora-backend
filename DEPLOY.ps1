@@ -4,7 +4,7 @@
 
 Write-Host "
 ╔════════════════════════════════════════════════════════╗
-║   🚀 SCRIPT DE DEPLOY AUTOMÁTICO - ÂNCORA BACKEND     ║
+║   SCRIPT DE DEPLOY AUTOMATICO - ANCORA BACKEND        ║
 ║   Este script vai publicar seu app na internet!       ║
 ╚════════════════════════════════════════════════════════╝
 " -ForegroundColor Cyan
