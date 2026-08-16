@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm install",
+  "outputDirectory": ".",
+  "functions": {
+    "api/chat": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "CLAUDE_API_KEY": {
+      "description": "Chave da API Claude (copie de https://console.anthropic.com/)"
+    },
+    "PORT": {
+      "default": "3000"
+    }
+  }
+}
